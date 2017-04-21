@@ -1,45 +1,33 @@
-# nm-generator [![Build Status](https://travis-ci.org/paulmolluzzo/nm-generator.svg?branch=master)](https://travis-ci.org/paulmolluzzo/nm-generator)
+# generator-oss
 
-> Node module generator
+> Node module generator for OSS work
 
+Inspired by (read: stolen) [`generator-nm`](https://github.com/sindresorhus/generator-nm) by [Sindre Sorhus](https://sindresorhus.com/). This is nearly identical except I prefer spaces.
 
-## Install
+![](https://media.giphy.com/media/3ofT5Qj27XhgllmRvG/giphy.gif)
+
+# Install
 
 ```
-$ npm install --save nm-generator
+$ npm install --g yo generator-oss
 ```
 
+# Use
 
-## Usage
+```
+$ yo oss --help
 
-```js
-const nmGenerator = require('nm-generator');
+  Usage:
+    yo oss [options]
 
-nmGenerator('unicorns');
-//=> 'unicorns & rainbows'
+  Options:
+    --help          # Print the generator's options and usage
+    --skip-cache    # Do not remember prompt answers                      Default: false
+    --skip-install  # Do not automatically install dependencies           Default: false
+    --org           # Publish to a GitHub organization account
+    --cli           # Add a CLI
 ```
 
-
-## API
-
-### nmGenerator(input, [options])
-
-#### input
-
-Type: `string`
-
-Lorem ipsum.
-
-#### options
-
-##### foo
-
-Type: `boolean`<br>
-Default: `false`
-
-Lorem ipsum.
-
-
-## License
+# License
 
 MIT © [Paul Molluzzo](https://paul.molluzzo.com)
