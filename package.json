@@ -1,0 +1,52 @@
+{
+  "name": "generator-oss",
+  "version": "1.0.0",
+  "description": "Node module generator",
+  "license": "MIT",
+  "repository": "paulmolluzzo/nm-generator",
+  "author": {
+    "name": "Paul Molluzzo",
+    "email": "paul@molluzzo.com",
+    "url": "paul.molluzzo.com"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "test": "xo"
+  },
+  "files": [
+    "app"
+  ],
+  "keywords": [
+    "yeoman-generator",
+    "plugin",
+    "boilerplate",
+    "template",
+    "scaffold",
+    "node",
+    "module",
+    "node_module",
+    "node-module",
+    "init"
+  ],
+  "dependencies": {
+    "humanize-url": "^1.0.1",
+    "is-scoped": "^1.0.0",
+    "normalize-url": "^1.2.0",
+    "superb": "^1.1.3",
+    "underscore.string": "^3.0.3",
+    "yeoman-generator": "^1.0.1"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "xo": "*"
+  },
+  "xo": {
+    "space": true,
+    "esnext": true,
+    "ignores": [
+      "app/templates/**"
+    ]
+  }
+}
